@@ -1,0 +1,51 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #262421;
+}
+
+.main    {
+    position: absolute;
+    display: flex;
+    top: 1rem;
+    left: 1rem;
+    width: 100%;
+    height: 400px;
+    background: rgba(19, 10, 10, 0.363);    
+}
+
+.todas  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    background-color: #262421;
+    border: 1px black solid;
+    margin: 1rem auto;
+}
+
+.botao {
+    margin: 0.3rem;
+}
+
+.formlabel, .formfield {
+    margin: 0.3rem;
+
+}
+
+.formlabel {
+    margin: 0.3rem;
+    color: #fc9494;
+
+}
+
+
+#thirdId {
+    padding: 0.3rem;
+    color: #fc9494;
+
+}

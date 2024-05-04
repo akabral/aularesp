@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 04</title>
+    <script src="soma.js"></script>
+    <link rel="stylesheet" href="soma.css">
+</head>
+
+
+<body>
+
+    <div id="mainId" class="main">
+        <div id="firstId" class="todas">
+            
+            <button class="botao" onclick="toOla('thirdId')">Sobre Escrever </button>
+            <button class="botao" onclick="perName('div')">Alterarpor NAME</button>
+            <button class="botao" onclick="perClass('second')">Alterar Classe</button>
+            <button class="botao" onclick="perId('mainId')">Alterar por Id</button>
+        </div>
+
+
+        <div id="secondId" class="todas second">
+            <label class="formlabel" >Valor A</label>
+            <input  class="formfield" type="text" id="esq"/>
+            <label class="formlabel" >Valor B</label>
+            <input class="formfield" type="text" id="dir"/>
+
+            <fieldset>
+                <legend>Selecione operacao:</legend>
+              
+                <div>
+                  <input type="radio" id="soma" name="drone" value="soma" onclick="soma();"  />
+                  <label class="formlabel" for="soma">soma</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="subtracao" name="drone" value="subtracao" onclick="soma();" />
+                  <label class="formlabel" for="subtracao">subtracao</label>
+                </div>
+              
+                <div>
+                    <input type="radio" id="multiplicao" name="drone" value="multiplicao" onclick="soma();" />
+                    <label class="formlabel" for="multiplicao">multiplicao</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="divisao" name="drone" value="divisao" onclick="soma();" />
+                    <label class="formlabel" for="divisao">divisao</label>
+                  </div>
+                  </fieldset>
+                  <label class="formlabel" >Total</label>
+                  <label class="formlabel" id="total"> ???</label>
+
+
+        </div>
+        <div id="thirdId" class="todas third">
+            Este conteudo será modificado ao clicar no botão "Sobre Escrever"
+        </div>
+
+    </div>
+                    
+    (1) Faça uma mensagem de 'Olá Mundo’
+(2) Faça uma saída de soma de 2 inteiros
+(3) Altera a propriedade de um elemento por id
+(4) Altere a propriedade de um elemento por name
+(5) Altere a propriedade de um elemento por class
+
+
+
+</body>
+
+</html>
