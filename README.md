@@ -6,10 +6,12 @@ https://akabral.github.io/aularesp/index.html
 
 Atividade da semana - 12/03/2024
 Criar um a página HTML para um animal de estimação, inserir e disponibilizar o link no github, como feito pelo professor, segue abaixo exemplos
+
 https://akabral.github.io/aularesp/animal.html
 
 Atividade da semana - 19/03/2024
 Criar um a página HTML para uma carta, inserir e disponibilizar o link no github
+
 https://akabral.github.io/aularesp/carta.html
 
 Atividade da semana - 26/03/2024
